@@ -1,0 +1,105 @@
+/* .top { */
+/* 	background: #222222; */
+/* 	padding: 6px 0; */
+/* } */
+
+/* .top a { */
+/* 	color: #fff; */
+/* } */
+
+/* .top a:hover { */
+/* 	color: #f0f0f0; */
+/* } */
+
+/* .top .dropdown, .login-register { */
+/* 	color: #fff; */
+/* 	float: right; */
+/* } */
+
+.main-navigation {
+	width: 100%;
+	text-align: center;
+	background: #ffffff;
+	border-top: 1px solid #ebebeb;
+	border-bottom: 3px solid #e1e1e1;
+}
+
+.main-navigation .menu {
+	padding: 0;
+	margin: 0;
+}
+
+.main-navigation .navbar-collapse {
+	padding: 0 15px;
+	position: relative;
+}
+
+.main-navigation .menu li.nav-current {
+	border-bottom: 3px solid #D9534F;
+	margin-bottom: -3px;
+}
+
+.main-navigation .menu li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+
+@media screen and (max-width: 767px) {
+	.main-navigation .menu li {
+		display: block;
+		text-align: left;
+	}
+}
+
+.main-navigation .login-btn, .user-btn {
+	float: right;
+	margin-top: 10px;
+}
+
+.icon-bar {
+	color: #505050;
+	display: block;
+	font-size: 1.5em;
+}
+
+.main-navigation .menu li a {
+	color: #505050;
+	line-height: 4em;
+	display: block;
+	padding: 0 24px;
+}
+
+.main-navigation .menu li a:hover {
+	color: #D9534F;
+}
+
+.main-navigation .dropdown-menu li {
+	width: 100%;
+}
+
+.main-navigation .dropdown-menu li a {
+	padding: 10px;
+	line-height: 1em;
+}
+
+.main-navigation .navbar-header {
+	text-align: center;
+	height: 56px;
+	display: block;
+}
+
+.main-header a {
+	color: #14212A;
+	font-size: 2.5em;
+}
+
+.main-header a:hover {
+	color: #14212A;
+}
+
+.main-header {
+	background: #ffffff;
+	padding-top: 26px;
+	padding-bottom: 10px;
+}

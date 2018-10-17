@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.zcj.shm.message.domain">
+	<class name="ShmMessage" table="Shm_Message">
+		<id name="id" type="string">
+			<generator class="uuid"></generator>
+		</id>
+
+		<many-to-one name="toUser" class="com.zcj.shm.user.domain.ShmUser"
+			fetch="select">
+		</many-to-one>
+		<many-to-one name="fromUser" class="com.zcj.shm.user.domain.ShmUser"
+			fetch="select">
+		</many-to-one>
+		<many-to-one name="toGoods" class="com.zcj.shm.goods.domain.ShmGoods"
+			fetch="select">
+		</many-to-one>
+
+		<property name="type" type="string"></property>
+		<property name="title" type="string"></property>
+		<property name="content" type="string"></property>
+		<property name="readFlag" type="string"></property>
+		<property name="delFlag" type="string"></property>
+		<property name="prop1" type="string"></property>
+		<property name="memo" type="string"></property>
+		<property name="addTime" type="calendar"></property>
+		<property name="modifyTime" type="calendar"></property>
+
+	</class>
+</hibernate-mapping>

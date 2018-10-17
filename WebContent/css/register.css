@@ -1,0 +1,53 @@
+body {
+	background-image: url("/common-bg3.jpg");
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+
+.content-wrap {
+	/* 	background-image: url("../images/loginbg.png"); */
+/* 	background-size: cover; */
+/* 	position: relative; */
+}
+
+.content-wrap .register-panel {
+	width: 700px;
+	padding: 1px 200px 50px;
+	margin: 32px auto;
+	background: #ffffff;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px
+		rgba(0, 0, 0, 0.08);
+	transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.content-wrap .title {
+	text-align: center;
+	margin: 35px 0;
+}
+
+#submitbtn {
+	margin-top: 10px;
+}
+
+#vcodeinput {
+	width: 40%;
+}
+
+#vcodebtn {
+	width: 60%;
+	float: left;
+}
+
+@media screen and (max-width: 767px) {
+	.content-wrap .register-panel {
+		margin: 15px 0;
+		padding: 1px 25px 100px;
+		width: 100%;
+		background: #ffffff;
+	}
+	.content-wrap .title {
+		text-align: center;
+		margin: 18px 0;
+	}
+}

@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/pages/common/home.jsp=UTF-8
+encoding//WebContent/WEB-INF/pages/common/login.jsp=UTF-8
+encoding//WebContent/WEB-INF/pages/include/footer.jsp=UTF-8
+encoding//WebContent/WEB-INF/pages/include/include_head.jsp=UTF-8
+encoding//src/com/zcj/shm/user/web/action/interceptor/LoginInterceptor.java=UTF-8
+encoding/<project>=gbk

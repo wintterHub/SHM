@@ -1,0 +1,56 @@
+body {
+	background-image: url("/common-bg2.jpg");
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+
+.content-wrap {
+	/* 	background-image: url("/common-bg2.jpg"); */
+	background-size: cover;
+	/* 	-webkit-background-size: cover; */
+	position: relative;
+}
+
+.content-wrap .login-panel {
+	width: 400px;
+	padding: 0 50px 200px;
+	margin: 32px;
+	float: right;
+	background: #ffffff;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px
+		rgba(0, 0, 0, 0.08);
+	transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+#submitbtn {
+	margin-top: 10px;
+}
+
+.content-wrap .title {
+	text-align: center;
+	margin: 35px 0;
+}
+
+.content-wrap .forget {
+	color: #999999;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.alert {
+	margin: 20px 35px;
+}
+
+@media screen and (max-width: 767px) {
+	.content-wrap .login-panel {
+		margin: 15px 0;
+		padding: 0 25px 100px;
+		width: 100%;
+		background: #ffffff;
+	}
+	.content-wrap .title {
+		text-align: center;
+		margin: 18px 0;
+	}
+}

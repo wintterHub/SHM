@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="manager" namespace="/" extends="common">
+		<action name="managerAction_*" method="{1}"
+			class="com.zcj.shm.manager.web.action.ManagerAction">
+			<!-- <result name="goFrame" type="redirectAction">managerAction_goFrame</result> -->
+			<result name="frame">/WEB-INF/pages/admin/frame/frame.jsp</result>
+			<result name="adminHome" type="redirect">/manager/managerAction_navJump.action?flag=memberManage</result>
+			<result name="adminLogin">/WEB-INF/pages/admin/login.jsp</result>
+		</action>
+	</package>
+</struts>

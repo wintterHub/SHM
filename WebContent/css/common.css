@@ -1,0 +1,43 @@
+html, body {
+	color: #505050;
+	line-height: 1.75em;
+	background: #EDEDED;
+	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	background-image: url("/index-bg.jpg");
+}
+
+.btn, .form-control {
+	border-radius: 2px;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+a {
+	color: #14212A;
+	outline: none;
+	text-decoration: none;
+	-webkit-transition: all .15s ease-out;
+	-o-transition: all .15s ease-out;
+	transition: all .15s ease-out;
+}
+
+a:focus, a:hover {
+	outline: none;
+	text-decoration: none;
+	color: #BB3840;
+	-webkit-transition: all .15s ease-out;
+	-o-transition: all .15s ease-out;
+	transition: all .15s ease-out;
+}
+
+.link-style-gray a {
+	color: #999999;
+}
+
+.link-style-gray a:hover {
+	color: #BB3840;
+}

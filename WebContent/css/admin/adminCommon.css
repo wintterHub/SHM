@@ -1,0 +1,37 @@
+body, html {
+	margin: 0;
+	background: #1A2225;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+a:hover {
+	outline: none;
+	text-decoration: none;
+}
+
+#center-panel {
+	width: 100%;
+	height: 100%;
+	padding: 0 10px;
+}
+
+.easyui-linkbutton {
+	margin: 0 !important;
+}
+
+#editGoodsWindow .goods-img {
+	text-align: center;
+}
+
+#editGoodsWindow img {
+	border: 3px solid #FFFFFF;
+	width: 90px;
+	height: 90px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}

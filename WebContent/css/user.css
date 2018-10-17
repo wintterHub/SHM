@@ -1,0 +1,146 @@
+.wrapper {
+	height: 250px;
+	width: 100%;
+	background-image: url("../images/thomas-griesbeck-149034.jpg");
+	background-position: center 40%;
+	background-size: cover;
+	padding-top: 100px;
+}
+
+.wrapper .head-img {
+	text-align: center;
+}
+
+.wrapper img {
+	border: 3px solid #FFFFFF;
+	width: 90px;
+	height: 90px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.navbar {
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px
+		rgba(0, 0, 0, 0.08);
+	transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.mybox {
+	margin-bottom: 30px;
+	background: #ffffff;
+	padding: 30px;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px
+		rgba(0, 0, 0, 0.08);
+	transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.panel-heading {
+	font-size: 24px;
+	line-height: 1.25;
+	color: #000;
+	margin-bottom: 13px;
+	/*border-bottom: 1px solid #ebebeb;*/
+}
+
+.user-info-panel-body {
+	padding: 10px 15px;
+	font-size: 1.17em;
+	margin-left: 20%;
+}
+
+.user-publish-panel-body {
+	padding: 10px 15px;
+	font-size: 1.17em;
+	text-align: center;
+}
+
+.user-publish-panel-body table thead tr td {
+	padding: 20px;
+	text-align: center;
+}
+
+.user-publish-panel-body table tbody tr td {
+	text-align: center;
+	padding: 10px;
+	line-height: 80px;
+}
+
+.user-publish-panel-body table tbody tr td button{
+	margin: 22px auto;
+}
+
+.user-publish-panel-body table tbody tr td img {
+	height: 80px;
+}
+
+blockquote {
+	padding: 0;
+	border-left: 5px solid #D9534F;
+}
+
+.info-item {
+	margin-bottom: 15px;
+}
+
+@media screen and (max-width: 767px) {
+	.user-info-panel-body {
+		padding: 0;
+		font-size: 1.17em;
+		margin-left: 0;
+	}
+	.user-publish-panel-body {
+		padding: 0;
+		font-size: 1.17em;
+		text-align: center;
+	}
+	.mybox {
+		padding: 10px 10px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.change-headimage{
+		display: none;
+	}
+}
+
+.pagination {
+	margin: 50px 0 35px;
+	text-align: center;
+	display: block;
+}
+
+.pagination .page-number, .older-posts {
+	border: 1px solid #D9534F;
+	background: #D9534F;
+	color: #ffffff;
+	margin: 0 3px;
+	display: inline-block;
+	line-height: 36px;
+	padding: 0 14px;
+	border-radius: 2px;
+}
+
+.pagination .older-posts {
+	padding: 11px 14px;
+}
+
+.pagination a:hover {
+	background: #C9302C;
+	border: 1px solid #C9302C;
+	color: #ffffff;
+}
+
+.change-headimage{
+	margin-bottom: 30px;
+	margin-left: 40px
+}
+
+/*@media screen and (max-width: 970px) {*/
+/*.panel-body {*/
+/*margin-left: 0;*/
+/*}*/
+
+/*}*/
